@@ -10,7 +10,7 @@ database_path = os.path.join(current_directory, database_file)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + database_path
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:/Users/dell/Documents/web-projects/python_projects/flask_blog/blog.db'
+#app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///C:/Users/dell/Documents/web-projects/python_projects/flask_blog/blog.db'
 
 db = SQLAlchemy(app)
 
